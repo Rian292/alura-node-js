@@ -1,12 +1,16 @@
 {
   "name": "alura-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Módulo de primeiros passos no curso de Node",
+  "main": "primeiro-projeto.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon primeiro-projeto.js",
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Rian Ramos",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
